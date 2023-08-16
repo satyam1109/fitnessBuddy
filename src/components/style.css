@@ -1,0 +1,183 @@
+* {
+    padding: 2px;
+    margin: 3px;
+}
+
+.scroll_page{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    justify-content: space-between;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(220, 229, 242);
+
+    /* adding vertical scroll */
+    max-height: 800px;
+    max-width: 94%;
+    overflow-y: scroll;
+    border: 2px solid rgb(79, 86, 183);
+    border-radius: 4px;
+
+    box-shadow: 1px 1px 8px rgb(140, 170, 209);
+}
+
+.ex_card {
+    background-color: white;
+    border-top: 4px solid rgb(79, 86, 183);
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.image {
+    border-bottom: 2px solid rgb(79, 86, 183);
+    border-radius: 6px;
+
+}
+
+.exname {
+    color: rgb(79, 86, 183);
+}
+
+.bp {
+    background-color: rgb(195, 212, 236);
+    padding: 2px;
+    border-radius: 4px;
+}
+
+.targ {
+    background-color: rgb(195, 212, 236);
+    padding: 2x;
+    border-radius: 4px;
+}
+
+.desc {
+    display: flex;
+
+}
+
+.ex_page {
+    background-color: rgb(220, 229, 242);
+}
+
+.ex_img {
+    height: 400px;
+    border-bottom: 3px solid rgb(79, 86, 183);
+    border-top: 4px solid rgb(79, 86, 183);
+border-radius: 6px;
+
+}
+
+
+
+.fav{
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+    background: rgb(0,140,255);
+    box-shadow: 0 0 25px rgb(0,140,255);
+}
+
+.fav:hover{
+    box-shadow: 0 0 5px rgb(0,140,255),
+              0 0 25px rgb(0,140,255),
+              0 0 50px rgb(0,140,255),
+              0 0 100px rgb(0,140,255);
+}
+
+.ex_name {
+    font-size: 45px;
+}
+
+.ex_detail {
+    font-size: 30px;
+}
+
+.icon_desc {
+    display: flex;
+}
+
+.icon_img {
+    height: 30px;
+}
+.left{
+    text-align: left;
+}
+
+/* making a horizontal scroll bar of the videos  */
+
+.video_gallery {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    padding: 10px;
+
+}
+
+.video_gallery::-webkit-scrollbar {
+    display: none;
+    /* Hides scrollbar on Chrome, Safari, and newer versions of Edge */
+}
+
+.videos_desc {
+    transition: 0.3s;
+    border: 1px solid rgb(79, 86, 183);
+    border-radius: 4px;
+
+}
+
+.videos_desc:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 1px 8px rgb(140, 170, 209);
+    transform: translateY(-2px);
+    background-color: rgb(203, 223, 250);
+}
+
+.thumbnail_img {
+    height: 170px;
+}
+
+
+/* similarEx  */
+
+.similar_ex {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    padding: 10px;
+}
+.similar_ex::-webkit-scrollbar {
+    display: none;
+    /* Hides scrollbar on Chrome, Safari, and newer versions of Edge */
+}
+
+.ex_card:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 8px rgb(140, 170, 209);
+    transform: translateY(-2px);
+}
+
+.img_scroll{
+    height:270px;
+
+}
+
+
+
+
+/* .image_slide{
+    height:140px;
+} */
