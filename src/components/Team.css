@@ -1,0 +1,85 @@
+h2 {
+    font-size: clamp(1rem, 5vw, 5rem);
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.5em;
+    margin-right: -0.5em;
+    color: #ccc;
+    width: 90vw;
+    max-width: 1200px;
+}
+header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    width: 100%;
+    z-index: 3;
+    height: 7em;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: clamp(0.66rem, 2vw, 1rem);
+    letter-spacing: 0.5em;
+}
+section {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    visibility: hidden;
+
+}
+section .outer, section .inner {
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+}
+section .bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-size: cover;
+    background-position: center;
+
+}
+section .bg h2 {
+    z-index: 2;
+    
+}
+section .bg .clip-text {
+    overflow: hidden;
+}
+
+.home .bg {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://static.toiimg.com/photo/83779959.cms");
+}
+
+.first .bg {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://cdn.dymatize.com/a/products/_1200x630_crop_center-center_82_none/Hero_Product_Line_Page_Dymatize_Website_Desktop_ISO100_3840x2156.jpg?mtime=1646175704");
+}
+.second .bg {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%), url("https://post.healthline.com/wp-content/uploads/2022/04/2153384-CLONE-10-of-the-Best-Creatine-Supplements-in-2022-1200x628-Facebook-1200x628.jpg");
+}
+.third .bg {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%), url("https://www.stack3d.com/wp-content/uploads/2018/10/amino-hd.jpg");
+}
+.fourth .bg {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.7) 100%), url("https://muscleinsider.com/sites/default/files/editor/HD_Muscle_Pre-HD_Ultra_Review_22.jpeg");
+}
+.fifth .bg {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("https://media.gq-magazine.co.uk/photos/63b83777eb83a7fda7779cda/4:3/w_1440,h_1080,c_limit/Multivit_JESSIE.jpg");
+    background-position: 50% 45%;
+}
+.sixth .bg{
+   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url("https://www.healthkart.com/connect/wp-content/uploads/2022/07/900x500_thumbnail_HK-importance-of-vitamin-D-.png");
+}
+.seven .bg{
+   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url("https://nypost.com/wp-content/uploads/sites/2/2019/08/shutterstock_602485739-1.jpg?quality=75&strip=all");
+}
+h2 * {
+    will-change: transform;
+}

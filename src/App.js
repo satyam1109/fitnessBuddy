@@ -18,24 +18,27 @@ function App() {
   return (
     <div className="App">
 
+    
+
       <Navbar/>
 
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/workout" element={<Workout/>}/>
+        <Route path="/exercises" element={<Exercises/>}/>
         <Route path="/ex_details/:id" element={<Ex_details/>}/>
         <Route path="/food" element={<Food/>}/>
         <Route path="/supplements" element={<Supplements/>}/>
         <Route path="/pt" element={<Pt/>}/>
       </Routes>
 
+      
 
-      {/* <Practise/> */}
-
-      {/* <Routes>
+      <Routes>
         <Route path="/" element={<Exercises/>}/>
         
-      </Routes> */}
+      </Routes>
+
+      {/* <Practise/> */}
   
     </div>
   );

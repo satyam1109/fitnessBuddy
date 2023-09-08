@@ -55,10 +55,12 @@
     background-color: rgb(195, 212, 236);
     padding: 2x;
     border-radius: 4px;
+    margin-left:6px;
 }
 
 .desc {
     display: flex;
+
 
 }
 
@@ -136,7 +138,7 @@ border-radius: 6px;
     transition: 0.3s;
     border: 1px solid rgb(79, 86, 183);
     border-radius: 4px;
-
+    margin:3px;
 }
 
 .videos_desc:hover {
@@ -159,10 +161,12 @@ border-radius: 6px;
     scroll-snap-type: x mandatory;
     padding: 10px;
 }
+
 .similar_ex::-webkit-scrollbar {
     display: none;
     /* Hides scrollbar on Chrome, Safari, and newer versions of Edge */
 }
+
 
 .ex_card:hover{
     transform: scale(1.1);
@@ -172,7 +176,52 @@ border-radius: 6px;
 
 .img_scroll{
     height:270px;
+    
+}
 
+.muscle_icon_div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.musc_img{
+    height:120px;
+    width: 120px;
+    overflow: hidden;
+    border:2px solid rgb(79, 86, 183);
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.musc_img:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 8px rgb(140, 170, 209);
+    transform: translateY(-2px);
+    border:3px solid rgb(79, 86, 183);
+
+}
+
+@media(min-width: 1000px){
+
+}
+
+@media (min-width: 750px) and (max-width:1000px){
+
+    
+}
+
+@media (min-width: 450px) and (max-width: 750px) {
+    .musc_img{
+        height:90px;
+        width: 90px;
+        overflow: hidden;
+        border:2px solid rgb(79, 86, 183);
+        border-radius: 50%;
+        cursor: pointer;
+    
+    }
 }
 
 

@@ -43,7 +43,7 @@ export default function EquipmentEx() {
 
     return (
         <div>
-            <h2 className='left'>Other Exercises with <span style={{ color: "rgb(79, 86, 183)"}}>{equip}</span></h2>
+            <h1 className='left'>Other Exercises with <span style={{ color: "rgb(79, 86, 183)"}}>{equip}</span></h1>
             {!info ? (
                 <p className='text-center'>Loading...</p>
             ) : (
@@ -52,7 +52,7 @@ export default function EquipmentEx() {
                     {
                         info.slice(1, 13).map((temp, index) => {
                             return (
-                                <div className='ex_card scroll_div'>
+                                <div className='ex_card scroll_div m-1'>
 
                                     <Link to={`/ex_details/${temp.id}`} target="_blank">
                                         <div className='image' >

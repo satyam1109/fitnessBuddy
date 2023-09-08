@@ -73,11 +73,11 @@ export default function Ex_details() {
 
                     <div className='ex_detail mt-3'>
 
-                        <div className='icon_desc'><img src={body} className='icon_img'/><h4 className='d-flex'> {info.bodyPart}</h4></div>
+                        <div className='icon_desc m-2'><img src={body} className='icon_img'/><h4 className='d-flex'> {info.bodyPart}</h4></div>
                         
-                        <div className='icon_desc'><img src={bicep} className='icon_img'/><h4 className='d-flex'> {info.target}</h4></div>
+                        <div className='icon_desc m-2'><img src={bicep} className='icon_img'/><h4 className='d-flex'> {info.target}</h4></div>
                         
-                        <div className='icon_desc'><img src={equipm} className='icon_img'/><h4 className='d-flex'> {info.equipment}</h4></div>
+                        <div className='icon_desc m-2'><img src={equipm} className='icon_img'/><h4 className='d-flex'> {info.equipment}</h4></div>
                     </div>
                 </div>
                 

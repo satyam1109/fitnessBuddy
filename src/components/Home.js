@@ -4,6 +4,7 @@ import vid2 from '../images/vid2.mp4'
 import CountUp from 'react-countup'
 import ScrollTrigger from 'react-scroll-trigger'
 import Workout from '../components/Workout';
+import Exercises from './Exercises'
 
 export default function Home() {
 
@@ -37,7 +38,7 @@ export default function Home() {
                 <h1>
                   {counteron && <CountUp start={0} end={2000} duration={2} />}+
                 </h1>
-                <h2>Exercises</h2>
+                <h3 className='mt-4'>Exercises</h3>
               </div>
 
               <div className='count1' >
@@ -45,7 +46,7 @@ export default function Home() {
                 <h1>
                   {counteron && <CountUp start={0} end={500} duration={2} />}+
                 </h1>
-                <h2>Clients</h2>
+                <h3 className='mt-4'>Clients</h3>
               </div>
 
               <div className='count1 pb-5'>
@@ -53,7 +54,7 @@ export default function Home() {
                 <h1>
                   {counteron && <CountUp start={0} end={100} duration={3} />}+
                 </h1>
-                <h2>Diet Plans</h2>
+                <h3 className='mt-4'>Diet Plans</h3>
               </div>
             </div>
 
@@ -62,7 +63,7 @@ export default function Home() {
         <video src={vid2} autoPlay loop muted />
       </div>
 
-      <Workout />
+      <Exercises />
 
     </>
 

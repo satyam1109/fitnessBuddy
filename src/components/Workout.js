@@ -5,14 +5,12 @@ const exercisename = createContext();
 
 export default function Workout() {
 
-  // let exer=null;
+  let exer='cardio';
 
   const [txt,settxt]=useState('cardio')
 
   const [muscle,setmuscle]=useState('')
   // const [istrue,setistrue]=useState(false)
-
-  const [selectedpart, setselectedpart]=useState(null)
 
 
   useEffect(()=>{
@@ -21,10 +19,11 @@ export default function Workout() {
     setmuscle(txt)
   },[txt])
 
-  const body_parts=['cardio','waist','back','chest','lower legs','upper legs','shoulders','lower arms','upper arms']
+  // const body_parts=['cardio','waist','back','chest','lower legs','upper legs','shoulders','lower arms','upper arms']
 
   const handlebuttonclicked=(part)=>{
     settxt(part)
+    exer=part
   }
 
 
@@ -36,7 +35,9 @@ export default function Workout() {
       <button onClick={()=>handlebuttonclicked('waist')}>waist</button>
       <button onClick={()=>handlebuttonclicked('back')}>back</button>
       <button onClick={()=>handlebuttonclicked('chest')}>chest</button>
-      <button onClick={()=>handlebuttonclicked('shoulders')}>Shoulders</button>
+      <button onClick={()=>{exer='shoulders';settxt('shoulders')}}>Shoulders</button>
+
+      
       {/* <button onclick={}>lower legs</button>
       <button onclick={clickupplegs}>upper legs</button>
       <button onclick={clickcardio}>cardio</button>
@@ -46,16 +47,12 @@ export default function Workout() {
       <button onClick={searchExercise}>search</button> */}
 
      
-      {!txt ? (
-        <p>enter the body part</p>
-      ):(
-        // <Exercises/>
-        <exercisename.Provider value={txt}>
+      
+        {/* <Exercises data={txt}/> */}
+        <exercisename.Provider value={exer}>
           <Exercises/>
         </exercisename.Provider>
-      )
-
-      }
+      
     </div>
   )
 }

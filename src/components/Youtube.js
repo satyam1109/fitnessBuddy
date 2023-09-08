@@ -46,37 +46,6 @@ const Youtube = () => {
         
     }, [name]);
 
-    // useEffect(() => {
-
-    //     const options = {
-    //         method: 'GET',
-    //         url: 'https://youtube-v31.p.rapidapi.com/search',
-    //         params: {
-    //             q: name,
-    //             part: 'snippet,id',
-    //             regionCode: 'US',
-    //             maxResults: '50',
-    //             order: 'date'
-    //         },
-    //         headers: {
-    //             'X-RapidAPI-Key': '4c53314ac9msh90dbff18616c628p1da403jsn93f4e3e6bca7',
-    //             'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
-    //         }
-    //     };
-
-    //     try {
-    //         axios.request(options)
-    //             .then((response) => {
-    //                 console.log("dats is successful")
-    //                 console.log(response.data.items)
-    //                 setinfo(response.data.items)
-    //             })
-    //     } catch (error) {
-    //         console.error(error);
-    //     }
-    // }, [])
-
-
 
     return (
         <div className='video_gallery_container'>

@@ -17,7 +17,7 @@ export default function Navbar() {
                             <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link active" to="/workout">Exercises</Link>
+                            <Link className="nav-link active" to="/exercises">Exercises</Link>
                         </li>
                         <li className="nav-item dropdown active">
                             <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

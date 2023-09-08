@@ -117,10 +117,71 @@ video{
     background-color: rgba(1,1,1,0.4);
 }
 
+.supp_page{
+    background-color: rgb(220, 229, 242);
+}
+.supp_home{
+    /* display: flex; */
+    margin: 0;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 1em;
+    color: white;
+    background-image: url('https://static.toiimg.com/photo/83779959.cms');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* adjusting the height according the wodth */
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    padding-top: 10vh;
 
+}
 
+.supplement_card{
+    /* display:inline-block; */
+    margin:4px;
+    background-color: rgb(198, 206, 236);
+    
+    border:1px solid rgb(79, 86, 183);
+    border-radius: 4px;
+}
 
+.supp_head{
+    
+    font-size: 110px;
+    margin-top: 30vh;
 
+}
+
+.sup_desc{
+    margin-top: 8px;;
+    align-items: left;
+    text-align: left;
+}
+
+.supplements_info{
+    
+    display:flex;
+
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.supplements_rows{
+
+    display:flex;
+    justify-content: space-around;
+}
+
+.supp_img{
+    height:140px;
+    width:100px;
+
+    border: 1px solid rgb(79, 86, 183);
+    border-radius: 3px;
+}
 
 @media(min-width: 1000px){
     .div2_slog{
@@ -144,5 +205,10 @@ video{
     }
     .div2_slog{
         font-size: 25px;
+    }
+
+    .supp_head{
+    
+        font-size: 60px;
     }
 }
