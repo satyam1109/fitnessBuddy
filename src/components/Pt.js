@@ -53,6 +53,8 @@ export default function Pt() {
   };
 
   return (
+
+  
     <div className="pt-one">
       <div className="pt-slogan">
         <h1 className="display-2">
@@ -155,6 +157,3 @@ export default function Pt() {
   );
 }
 
-{
-  /* <button onClick={()=>displayRazor(1)}>Buy Now</button> */
-}

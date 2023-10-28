@@ -33,14 +33,6 @@ function App() {
         <Route path="/services" element={<Services/>}/>
       </Routes>
 
-      
-
-      <Routes>
-        <Route path="/" element={<Exercises/>}/>
-        
-      </Routes>
-
-      <Practise/>
   
     </div>
   );

@@ -5,6 +5,7 @@ import "./food.css"
 export default function Category() {
   const { name } = useParams();
   const [foodinfo, setfoodinfo] = useState([]);
+  const [fetched,setfetched]=useState(true);
 
   let title, content, action;
 
@@ -52,6 +53,7 @@ export default function Category() {
 
         console.log(respjson);
         setfoodinfo(respjson);
+        setfetched(false);
       } catch (e) {
         console.log("error occured ", e);
       }
@@ -90,8 +92,10 @@ export default function Category() {
         foods
       </h1>
 
-      {!foodinfo ? (
-        <h1>Loading.....</h1>
+      {fetched ? (
+        <div class="spinner-border text-primary" role="status">
+        <span class="sr-only"></span>
+      </div>
       ) : (
         <div className="row">
           {foodinfo.map((item) => (
