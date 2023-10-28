@@ -1,0 +1,31 @@
+.pt-one{
+
+    background-image: url("https://highlite.com.au/wp-content/uploads/2020/05/Highlite_Portraits_5185-1024x683.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.pt-slogan{
+    padding-top: 50vh;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), transparent);
+    /* position: absolute; */
+    color: #f5f5f5; 
+    font-weight: bold;
+    z-index: 1;
+    height:100vh;
+}
+
+.plan{
+    border: 1px solid blue;
+    background-color: rgb(220, 229, 242);
+    border-radius: 20px;
+}
+
+.amount{
+    display: flex;
+    justify-content: space-around;
+}
+

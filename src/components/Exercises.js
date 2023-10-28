@@ -105,13 +105,13 @@ export default function Exercises(props) {
             <div className='scroll_page'>
 
                
-                <button onClick={()=>{ if(count>=18){setcount(count-18)}}} className='btn btn-primary'>Prev</button>
+                {/* <button onClick={()=>{ if(count>=18){setcount(count-18)}}} className='btn btn-primary'>Prev</button> */}
 
                 {!info ? (
                     <p>Loading.....</p>
                 ) : (
 
-                    <div className='page custom-spacing row p-1'>
+                    <div className='page custom-spacing row p-1 mx-auto'>
 
                         {
 
@@ -154,7 +154,12 @@ export default function Exercises(props) {
                 )
                 }
 
-                <button onClick={()=>{if(count<info.length-18){setcount(count+18)}}} className='btn btn-primary'>next</button>
+                {/* <button onClick={()=>{if(count<info.length-18){setcount(count+18)}}} className='btn btn-primary'>next</button> */}
+            </div>
+
+            <div className='my-5'>
+            <button onClick={()=>{ if(count>=18){setcount(count-18)}}} className='btn btn-primary mx-2'>Prev</button>
+            <button onClick={()=>{if(count<info.length-18){setcount(count+18)}}} className='btn btn-primary mx-2'>next</button>
             </div>
 
         </>

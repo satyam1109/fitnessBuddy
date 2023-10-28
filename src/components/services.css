@@ -1,0 +1,119 @@
+.serv-one {
+  background-image: url("https://personaltrainertn.com/wp-content/uploads/2022/03/online-fitness-5-1024x576.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+
+
+.serv-txt{
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), transparent);
+  /* position: absolute; */
+  color: #f5f5f5; 
+  font-weight: bold;
+  z-index: 1;
+  height:100vh;
+}
+
+.txt1{
+    padding-top:35vh;
+    text-align: left;
+    padding-left: 6%;
+}
+
+.txt1 h3{
+    padding-top: 3vh;
+}
+
+.specialize{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sp-icon{
+    width:140px;
+    border: 4px solid rgb(79, 86, 183);
+    border-radius: 50%;
+    
+}
+
+.sp-txt{
+    margin-top: 15px;
+    color:rgb(79, 86, 183);
+}
+
+.serv-three{
+    padding-top:20px;
+    background-color:rgb(225, 234, 248);
+    
+}
+
+.prog-txt{
+    margin-top: 15px;
+    color:rgb(79, 86, 183);
+    font-size: larger;
+}
+
+.prog-icon{
+    width:140px;
+    border: 5px double rgb(105, 113, 227);
+    border-radius: 50%;
+}
+
+.serv-five{
+    width:100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 10px;
+    background-color: rgb(225, 234, 248);
+    padding-bottom: 40px;
+}
+
+.cust-img-slider{
+    padding-top: 50px;
+    width: 100%;
+    white-space: nowrap;
+    animation: slider 30s linear infinite;
+}
+
+.slider-content {
+    display: inline-block;
+    animation: slide 30s linear infinite; /* Adjust the duration for the desired speed */
+}
+
+.cust-img{
+
+  width:40%;
+  height:45vh;
+  margin-right: 30px;
+  border: 4px solid rgb(105, 113, 227);
+  border-radius: 4%;
+}
+
+@keyframes slider {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+@keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+
+  @media (min-width: 450px) and (max-width: 750px){
+    .cust-img{
+        height: 25vh;
+    }
+  }

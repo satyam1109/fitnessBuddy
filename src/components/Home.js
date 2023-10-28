@@ -63,7 +63,7 @@ export default function Home() {
         <video src={vid2} autoPlay loop muted />
       </div>
 
-      <Exercises />
+      {/* <Exercises /> */}
 
     </>
 

@@ -29,7 +29,7 @@ export default function Navbar() {
                             </ul>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link active" to="/workout">Plans</Link>
+                            <Link className="nav-link active" to="/services">Services</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link active" to="/pt">Personal Training</Link>

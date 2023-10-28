@@ -1,0 +1,192 @@
+.myText {
+    font-family: 'Playfair Display', serif;
+    font-size: 8vh;
+    font-weight: 400; /* Regular weight */
+    font-style: italic;
+    color: white;
+}
+
+.item-name{
+    font-family: 'Playfair Display', serif;
+    font-size: 5vh;
+    font-weight: 60; /* Regular weight */
+    font-style: italic;
+    color: black;
+}
+
+.nutrition-txt{
+    font-family: 'Caponi';
+    font-size: 3.5vh;
+    font-weight: 70; /* Regular weight */
+    font-style: bold;
+    color: black;
+
+}
+
+.benifits{
+    font-family: 'Raleway',sans-serif;
+    font-size: 2.5vh;
+    font-weight: 80; /* Regular weight */
+    font-style: italic;
+    color: black; 
+}
+
+.food_page{
+    overflow: hidden;
+}
+
+.description{
+    margin:5px;
+    padding:5px;
+    background-color: rgb(225, 234, 248);;
+}
+
+.one {
+    /* display: flex; */
+    margin: 0;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 1em;
+    color: white;
+    background-image: url('https://images.thequint.com/thequint%2F2022-04%2F9bb03208-8222-43e9-b17e-504fb7f76ccc%2FHealthy_food_shopping_grocery_list_india_diet_healthy_weight_loss_secret_tip.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* adjusting the height according the wodth */
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    padding-top: 10vh;
+
+}
+
+.back-opaque{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), transparent)
+  
+}
+
+.categories{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap; 
+}
+
+
+.proteins{
+    background-image: url('https://www.healthkart.com/connect/wp-content/uploads/2021/07/Banner-28-1.jpg');
+    
+}
+
+.carbs{
+    background-image: url('https://wellversed.in/cdn/shop/articles/shutterstock_387192040_1_1200x1200.jpg?v=1598333091');
+}
+
+.fats{
+    background-image: url('https://www.healthifyme.com/blog/wp-content/uploads/2022/01/Top-6-Super-Healthy-High-Fat-Foods-1024x678.jpg');
+}
+
+.fibres{
+    background-image: url('https://www.healthkart.com/connect/wp-content/uploads/2023/03/900X500_banner_HK-High-Fibre-Low-Carb-Foods.png');
+
+}
+
+.proteins, .carbs, .fats, .fibres{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    width: calc(50% - 20px); /* Adjust for margin */
+    height: 50vh;
+    border:2px solid black;
+    border-radius: 8px;
+    padding:1px;
+    margin-top: 4px;
+    transition: 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.cat-name{  
+    background-color: rgba(1,1,1,0.5);
+    height:100%;
+    color:white;
+    top:0;
+    left:0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.proteins:hover{
+    border: 3px solid black;
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+.carbs:hover{
+    border: 3px solid black;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+.fats:hover{
+    border: 3px solid black;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+.fibres:hover{
+    border: 3px solid black;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.custom-card-image {
+    height: 250px; /* Set the desired height for your images */
+    object-fit: cover;
+    border:1px solid rgb(5, 5, 52);
+    box-shadow: 0px 4px 6px rgba(0, 0, 200, 0.5);
+}
+
+.food-item{
+   background-color: rgb(225, 234, 248);
+   transition: 0.3s ease-in-out;
+}
+
+.food-item:hover{
+    box-shadow: 0px 4px 6px rgba(0, 0, 200, 0.6);
+    transform: scale(1.02);
+    background-color: rgb(214, 227, 248);
+}
+
+.nutrition{
+    background-color: rgb(225, 234, 248); 
+    align-items: left;
+}
+.div-fill{
+
+}
+
+
+@media (min-width: 450px) and (max-width: 750px) {
+    .proteins{
+        width:100%;
+        height: 40vh;
+    }
+    .carbs{
+        width:100%;
+        height: 40vh;
+    }
+    .fats{
+        width:100%;
+        height: 40vh;
+    }
+    .fibres{
+        width:100%;
+        height: 40vh;
+    }
+}
+
+@media (min-width: 990px){
+    .nutrition{
+        text-align: left;
+        width: 55%;
+    }
+}
