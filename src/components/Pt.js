@@ -53,6 +53,9 @@ export default function Pt() {
   };
 
   return (
+    <div>
+
+    
     <div className="pt-one">
       <div className="pt-slogan">
         <h1 className="display-2">
@@ -67,7 +70,9 @@ export default function Pt() {
         </h4>
       </div>
 
-      <div className="subscription">
+     
+    </div>
+    <div className="subscription">
         <div className="flex justify-center">
           <h1 className="text-blue-900 text-2xl md:text-4xl lg:text-5xl my-5">
             Unlock Your Potential And Strength

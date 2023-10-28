@@ -1,0 +1,58 @@
+.darkfooter {
+    color: #fff;
+    height: 80px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.darkfooter p {
+    margin: 50px;
+    font-size: 1.2em;
+    color: #ffffff;
+}
+.footer{
+    border-radius:20px 20px 0 0;
+}
+
+.footer {
+    background: rgb(0, 0, 0);
+    text-align: center;
+    color: white;
+    
+}
+
+.footer .row {
+    width: 100%;
+    height: 20px;
+    /* margin: 1% 0%; */
+    /* padding: 0.6% 0%; */
+    color: rgb(0, 140, 255);
+    font-size: 0.8em;
+
+}
+
+.footer .row a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+.footer .row a:hover {
+    color: #fff;
+}
+
+.footer .row ul {
+    width: 100%;
+}
+
+.footer .row ul li {
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+.footer .row a i {
+    font-size: 2em;
+    margin: 0% 1%;
+}

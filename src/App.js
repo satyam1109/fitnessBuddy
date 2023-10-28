@@ -15,6 +15,7 @@ import Category from './components/Category';
 
 
 import {Routes,Route} from 'react-router-dom';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -31,16 +32,19 @@ function App() {
         <Route path="/supplements" element={<Supplements/>}/>
         <Route path="/pt" element={<Pt/>}/>
         <Route path="/services" element={<Services/>}/>
+        
       </Routes>
 
       
 
       <Routes>
         <Route path="/" element={<Exercises/>}/>
-        
+       
       </Routes>
+     
 
-      <Practise/>
+      {/* <Practise/> */}
+      <Footer/>
   
     </div>
   );

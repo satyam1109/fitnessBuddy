@@ -5,6 +5,7 @@ import CountUp from 'react-countup'
 import ScrollTrigger from 'react-scroll-trigger'
 import Workout from '../components/Workout';
 import Exercises from './Exercises'
+import Footer from './Footer'
 
 export default function Home() {
 
@@ -62,9 +63,10 @@ export default function Home() {
         </div>
         <video src={vid2} autoPlay loop muted />
       </div>
+      
 
       {/* <Exercises /> */}
-
+      {/* <Footer/> */}
     </>
 
   )
