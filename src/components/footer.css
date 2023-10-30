@@ -1,0 +1,53 @@
+footer{
+background-color: black;
+border-radius: 20px 20px 0px 0px ;
+}
+
+.comp-name{
+    font-family:'Arial Black' ,sans-serif;
+    font-size: 8vh;
+    font-weight: 60; /* Regular weight */
+    font-style: italic;
+    color: white;
+}
+
+.icons{
+    display:flex;
+    justify-content: center;
+}
+
+.bi-instagram{ 
+    color:white;
+    transition: color 0.3s;
+}
+
+.bi-instagram:hover{
+    color:grey;
+}
+
+.bi-twitter{ 
+    color:white;
+    transition: color 0.3s;
+}
+
+.bi-twitter:hover{
+    color:grey;
+}
+
+.bi-linkedin{ 
+    color:white;
+    transition: color 0.3s;
+}
+
+.bi-linkedin:hover{
+    color:grey;
+}
+
+.mailus{
+    color:white;
+    transition:color 0.3s;
+}
+
+.mailus:hover{
+    color:grey;
+}

@@ -5,7 +5,7 @@ import './pages.css'
 
 export default function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg nav_bar bg-dark"  data-bs-theme="dark">
+        <nav className="navbar navbar-expand-lg nav_bar bg-dark bg-color"  data-bs-theme="dark">
             <div className="container-fluid flex">
                 <Link className="navbar-brand" to="/"><img src={logo} className='logo'/></Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">

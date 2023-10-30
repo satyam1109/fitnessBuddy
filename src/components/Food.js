@@ -7,10 +7,10 @@ export default function Food() {
     <div className="food_page">
       <div className="one">
         <div className="slogan back-opaque">
-          <h1 className="slog_head">Food is the Key</h1>
-          <h2 className="slog_txt">To your Fitness Goals and Health</h2>
+          <h1 className="slog_head" data-aos="fade-right" data-aos-duration="1200" data-aos-offset="100">Food is the Key</h1>
+          <h2 className="slog_txt" data-aos="fade-left" data-aos-duration="1200" data-aos-offset="100">To your Fitness Goals and Health</h2>
           <i>
-            <h1 className="slog_txt myText pt-3">Choose them wisely</h1>
+            <h1 className="slog_txt myText pt-3" data-aos="fade-right" data-aos-duration="1200" data-aos-offset="100">Choose them wisely</h1>
           </i>
         </div>
       </div>

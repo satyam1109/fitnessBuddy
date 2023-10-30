@@ -8,6 +8,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Workout from './components/Workout';
 import Food from './components/Food';
+import Footer from './components/Footer';
 import Services from './components/Services';
 import Supplements from './components/Supplements';
 import Pt from './components/Pt'
@@ -32,6 +33,15 @@ function App() {
         <Route path="/pt" element={<Pt/>}/>
         <Route path="/services" element={<Services/>}/>
       </Routes>
+
+      
+
+      <Routes>
+        <Route path="/" element={<Exercises/>}/>
+        
+      </Routes>
+
+      <Footer/>
 
   
     </div>

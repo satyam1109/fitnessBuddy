@@ -1,5 +1,6 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "./services.css";
+import AOS from 'aos';
 
 export default function Services() {
   return (
@@ -7,8 +8,9 @@ export default function Services() {
       <div className="serv-one">
         <div className="serv-txt">
           <div className="txt1">
-            <h1 className="display-1 text-white">REBUILD YOURSELF</h1>
-            <h3 className="display-6">
+            
+            <h1 className="display-1 text-white" data-aos="slide-right" data-aos-duration="1000" data-aos-offset="100" >REBUILD YOURSELF</h1>
+            <h3 className="display-6" data-aos="slide-left" data-aos-duration="1200" data-aos-offset="100">
               Build Your Dream Body, Increase Confidence, And Stay Fit Forever
             </h3>
           </div>
@@ -17,8 +19,8 @@ export default function Services() {
 
       <div className="serv-two">
         <div>
-          <h1 className="display-1">We SPECIALIZE YOU IN</h1>
-          <h3 style={{ color: "rgb(79, 86, 183)" }}>
+          <h1 className="display-1" data-aos="fade-up" data-aos-duration="1200" data-aos-offset="100">We SPECIALIZE YOU IN</h1>
+          <h3 style={{ color: "rgb(79, 86, 183)" }} data-aos="fade-down" data-aos-duration="1200" data-aos-offset="100">
             IN CREATING PERSONALIZED
           </h3>
           <div className="specialize py-5">
@@ -41,7 +43,7 @@ export default function Services() {
                 src="https://cdn-icons-png.flaticon.com/512/3349/3349758.png"
                 className="sp-icon"
               />
-              <h3 className="sp-txt">LifeStyle Changes</h3>
+              <h3 className="sp-txt" >LifeStyle Changes</h3>
             </div>
           </div>
         </div>
@@ -49,10 +51,10 @@ export default function Services() {
 
       <div className="serv-three py-5">
         <div>
-          <h1>LIFE CHANGING RESULTS :</h1>
-          <h3 style={{ color: "rgb(79, 86, 183)" }}>By Our Clients </h3>
+          <h1 data-aos="fade-up" data-aos-duration="1200" data-aos-offset="100">LIFE CHANGING RESULTS :</h1>
+          <h3 style={{ color: "rgb(79, 86, 183)" }} data-aos="fade-down" data-aos-duration="1200" data-aos-offset="100">By Our Clients </h3>
 
-          <div className="vid row px-4">
+          <div className="vid row px-4" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100">
             <iframe
               width="560"
               height="315"
@@ -91,7 +93,7 @@ export default function Services() {
 
       <div className="serv-four my-5">
         <div>
-          <h1 className="display-1"> OUR PROGRAM INCLUDES </h1>
+          <h1 className="display-1" data-aos="fade-up" data-aos-duration="1200" data-aos-offset="100"> OUR PROGRAM INCLUDES </h1>
         </div>
 
         <div className="prog-det row my-5">

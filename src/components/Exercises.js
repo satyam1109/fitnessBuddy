@@ -57,8 +57,8 @@ export default function Exercises(props) {
     return (
 
         <>
-            <div className='m-3'><h3 className='display-4'>Checkout the most Effective Exercises <span className='display-3' style={{ color: "rgb(79, 86, 183)"}}>Personalised to You</span></h3></div>
-            <h1 className='m-3'>Select the Body Part</h1>
+            <div className='m-3'><h3 className='display-4' data-aos="fade-up" data-aos-duration="1200" data-aos-offset="100">Checkout the most Effective Exercises <span className='display-3' style={{ color: "rgb(79, 86, 183)"}}>Personalised to You</span></h3></div>
+            <h1 className='m-3' data-aos="fade-right" data-aos-duration="1000" data-aos-offset="100">Select the Body Part</h1>
 
             <div className='muscle_icon_div mt-4'>
 

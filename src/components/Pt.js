@@ -55,12 +55,13 @@ export default function Pt() {
   return (
 
   
+    <div>
     <div className="pt-one">
       <div className="pt-slogan">
-        <h1 className="display-2">
+        <h1 className="display-2" data-aos="slide-right" data-aos-duration="1200" data-aos-offset="100">
           Personalized Fitness for Exceptional Results
         </h1>
-        <h4 className="px-5 pt-5">
+        <h4 className="px-5 pt-5" data-aos="slide-left" data-aos-duration="1200" data-aos-offset="100">
           No two individuals are the same, and that's why we offer highly
           personalized fitness programs. Our team takes the time to understand
           your unique goals and challenges, crafting a fitness plan that's
@@ -68,10 +69,11 @@ export default function Pt() {
           norm.
         </h4>
       </div>
+    </div>
 
-      <div className="subscription">
+    <div className="subscription">
         <div className="flex justify-center">
-          <h1 className="text-blue-900 text-2xl md:text-4xl lg:text-5xl my-5">
+          <h1 className="text-blue-900 text-2xl md:text-4xl lg:text-5xl my-5" data-aos="fade-up" data-aos-duration="1400" data-aos-offset="100">
             Unlock Your Potential And Strength
           </h1>
         </div>
@@ -103,7 +105,7 @@ export default function Pt() {
 
           <div className="plan col-lg-3 col-md-3 col-sm-12 mx-3">
             <div className="my-3">
-              <h1 className="display-4"> WEEKS</h1>
+              <h1 className="display-4">12 WEEKS</h1>
             </div>
 
             <div className="">

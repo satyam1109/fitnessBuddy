@@ -15,8 +15,8 @@ export default function Home() {
       <div className='div1'>
 
         <div className='slogan'>
-          <h1 className='slog_head'>Fitness Buddy </h1>
-          <h2 className='slog_txt'>Your Partner in Transformation Journey</h2>
+          <h1 className='slog_head' data-aos="fade-right" data-aos-duration="1200" data-aos-offset="100">Fitness Buddy </h1>
+          <h2 className='slog_txt' data-aos="fade-left" data-aos-duration="1200" data-aos-offset="100">Your Partner in Transformation Journey</h2>
         </div>
 
       </div>
@@ -24,7 +24,7 @@ export default function Home() {
       <div className='div2'>
 
         <div className='div2_cnt'>
-          <h1 className='div2_slog'>A Complete Solution To Your Overall Fitness and Transformaton Goals</h1>
+          <h1 className='div2_slog' data-aos="fade-left" data-aos-duration="1200" data-aos-offset="100">A Complete Solution To Your Overall Fitness and Transformaton Goals</h1>
 
           
 
