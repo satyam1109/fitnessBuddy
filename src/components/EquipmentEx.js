@@ -17,7 +17,7 @@ export default function EquipmentEx() {
             url: `https://exercisedb.p.rapidapi.com/exercises/equipment/${equip}`,
             headers: {
                 // 'X-RapidAPI-Key': '4c53314ac9msh90dbff18616c628p1da403jsn93f4e3e6bca7',
-                'X-RapidAPI-Key': '0518f51629msh89037d1af016eeep1a52f3jsn68e63b85e907',
+                'X-RapidAPI-Key': 'a65e05173dmshd46c970ff056183p18a777jsn2ef09fdb706c',
                 'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com'
             }
         };
